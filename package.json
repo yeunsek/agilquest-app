@@ -1,7 +1,6 @@
 {
   "name": "agile-request-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,15 @@
     "hbs": "^4.1.0",
     "path": "^0.12.7",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeunsek/agile-quest-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yeunsek/agile-quest-app/issues"
+  },
+  "homepage": "https://github.com/yeunsek/agile-quest-app#readme",
+  "description": ""
 }
