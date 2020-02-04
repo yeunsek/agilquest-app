@@ -3,7 +3,7 @@ const fs = require('fs')
 const addReservation = (name, startDate, endDate) => {
     const reservations = loadReservations()
     const duplicateReservation = reservations.find((reservation) => 
-        (reservation.name === name && reservation.startDate === startDate && reservation.endDate === endDate)
+        (reservation.name === name || reservation.startDate === startDate || reservation.endDate === endDate)
     )
     if (!duplicateReservation) {
         reservations.push({
