@@ -12,7 +12,7 @@ const addReservation = (name, startDate, endDate) => {
             endDate
         })
         saveReservations(reservations)
-        return {message:"Reservation Booked"}
+        return {message:"Reserved"}
     } else {
         return {message: "Duplicated Reservation"}
     }

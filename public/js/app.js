@@ -1,4 +1,5 @@
 const reservationForm = document.querySelector('form')
+const reservationList = document.querySelector('table')
 const name = document.querySelector('input[name ="name"]')
 const startDate = document.querySelector('input[name="startDate"]')
 const endDate = document.querySelector('input[name="endDate"]')
