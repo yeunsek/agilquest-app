@@ -14,14 +14,7 @@ app.set("views", viewsPath);
 hbs.registerPartials(partialsPath);
 
 app.use(express.static(publicDirectoryPath));
-
-app.get("/list", (req, res) => {
-  res.render("list", {
-    title: "Reservation List",
-    name: "Eun",
-    data: reservation.loadReservations()
-  });
-});
+app.use(express.urlencoded({extended:false}))
 
 app.get("", (req, res) => {
   res.render("index", {
@@ -31,18 +24,27 @@ app.get("", (req, res) => {
 });
 
 app.post("/reservation", (req, res) => {
-  if (!req.query.name || !req.query.startDate || !req.query.endDate) {
+  if (!req.query.name || !req.query.startDate || !req.query.endDate || !req.query.location) {
     return res.send({
       error: "You must provide all information"
     });
   }
   return res.send(
     reservation.addReservation(
+      req.query.location,
       req.query.name,
       req.query.startDate,
       req.query.endDate
     )
   );
+});
+
+app.get("/list", (req, res) => {
+  res.render("list", {
+    title: "Reservation List",
+    name: "Eun",
+    data: reservation.loadReservations()
+  });
 });
 
 app.get("*", (req, res) => {

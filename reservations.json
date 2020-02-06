@@ -1,29 +1,9 @@
 [
-  { "name": "Eun", "startDate": "2/4/2020", "endDate": "3/4/2020" },
-  { "name": "Eun", "startDate": "2/4/2020", "endDate": "3/5/2020" },
   {
+    "id": 1,
+    "location": "HQ",
     "name": "Eun",
-    "startDate": "2020-01-01T01:00",
-    "endDate": "2020-02-02T02:01"
-  },
-  {
-    "name": "Eun",
-    "startDate": "2020-01-01T01:00",
-    "endDate": "2020-02-02T14:01"
-  },
-  {
-    "name": "Eun",
-    "startDate": "2020-01-01T01:01",
-    "endDate": "2020-02-02T14:02"
-  },
-  {
-    "name": "Eun",
-    "startDate": "0001-01-01T01:01",
-    "endDate": "0004-04-04T16:04"
-  },
-  {
-    "name": "lee",
-    "startDate": "2020-02-06T03:02",
-    "endDate": "2020-02-15T16:02"
+    "startDate": "2020-02-06T17:05",
+    "endDate": "2020-02-08T03:02"
   }
 ]
