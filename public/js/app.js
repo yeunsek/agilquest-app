@@ -18,7 +18,15 @@ reservationForm.addEventListener('submit', (event) => {
 
     fetch('http://localhost:3000/reservation?name='+ encodeURIComponent(reservationName) + 
         '&startDate='+encodeURIComponent(reservationStartDate)+'&endDate=' + 
-            encodeURIComponent(reservationEndDate)).then((response) => {
+            encodeURIComponent(reservationEndDate), {
+                method: 'post',
+                body: JSON.stringify({
+                    name: reservationName,
+                    startDate: reservationStartDate,
+                    endDate: reservationEndDate
+                }),
+                headers: {'Content-Type':'application/json'}
+            }).then((response) => {
     response.json().then((data) => {
         if (data.error) {
            messageOne.textContent = data.error

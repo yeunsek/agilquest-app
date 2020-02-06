@@ -30,7 +30,7 @@ app.get("", (req, res) => {
   });
 });
 
-app.get("/reservation", (req, res) => {
+app.post("/reservation", (req, res) => {
   if (!req.query.name || !req.query.startDate || !req.query.endDate) {
     return res.send({
       error: "You must provide all information"
