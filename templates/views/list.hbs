@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Agilquest</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>List of Reservations</p>
+        <p>{{data.name}}</p>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+            </tr>
+            <tbody>
+                {{#each data}}
+                <tr>
+                    <td>{{this.name}}</td>
+                    <td>{{this.startDate}}</td>
+                    <td>{{this.endDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    {{>footer}}
+
+</body>
+
+</html>

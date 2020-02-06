@@ -34,5 +34,6 @@ const loadReservations = () => {
 }
 
 module.exports = {
-    addReservation
+    addReservation,
+    loadReservations
 }

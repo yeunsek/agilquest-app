@@ -7,7 +7,6 @@ body {
     margin: 0 auto;
     /* padding is for the on left side */
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -48,6 +47,7 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    width: 200px;
 }
 
 button {
@@ -56,4 +56,21 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
