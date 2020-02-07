@@ -1,1 +1,44 @@
-[{"id":1,"location":"HQ","name":"Eun","startDate":"2020-02-14 14:30:00","endDate":"2020-02-28 02:30:00"},{"id":2,"location":"HQ","name":"Lee","startDate":"2020-02-14 14:30:00","endDate":"2020-02-28 02:30:00"},{"id":3,"location":"HQ","name":"Eun","startDate":"2020-02-29 14:30:00","endDate":"2020-03-04 02:30:00"},{"id":4,"location":"HQ","name":"Eun","startDate":"2/10/2020, 9:30:00 AM","endDate":"2/29/2020, 9:30:00 PM"},{"id":5,"location":"HQ","name":"Eun","startDate":"2/7/2020, 9:30:00 AM","endDate":"2/29/2020, 9:30:00 PM"}]
+[
+  {
+    "id": 1,
+    "location": "HQ",
+    "name": "Eun",
+    "startDate": "2020-02-14 14:30:00",
+    "endDate": "2020-02-28 02:30:00"
+  },
+  {
+    "id": 2,
+    "location": "HQ",
+    "name": "Lee",
+    "startDate": "2020-02-14 14:30:00",
+    "endDate": "2020-02-28 02:30:00"
+  },
+  {
+    "id": 3,
+    "location": "HQ",
+    "name": "Eun",
+    "startDate": "2020-02-29 14:30:00",
+    "endDate": "2020-03-04 02:30:00"
+  },
+  {
+    "id": 4,
+    "location": "HQ",
+    "name": "Eun",
+    "startDate": "2/10/2020, 9:30:00 AM",
+    "endDate": "2/29/2020, 9:30:00 PM"
+  },
+  {
+    "id": 5,
+    "location": "HQ",
+    "name": "Eun",
+    "startDate": "2/7/2020, 9:30:00 AM",
+    "endDate": "2/29/2020, 9:30:00 PM"
+  },
+  {
+    "id": 6,
+    "location": "Collabralink HQ",
+    "name": "Eun",
+    "startDate": "2/7/2020, 9:30:00 AM",
+    "endDate": "2/15/2020, 10:00:00 PM"
+  }
+]
